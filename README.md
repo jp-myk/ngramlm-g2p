@@ -1,4 +1,4 @@
-# Language Model Decoder
+# N-gram LM Grapheme-to-Phoneme
 - Transducer from a sentence to word/reading sequence.   
 - This repository is for my own study.
 
