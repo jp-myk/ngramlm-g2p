@@ -34,7 +34,7 @@ all: $(TARGETS)
 deplibs:$(MARISA_PATH)/local/lib/libmarisa.a
 
 $(MARISA_PATH)/local/lib/libmarisa.a:
-	git submodule update -i 
+	git submodule update --init 
 	cd $(MARISA_PATH) && autoreconf --install && ./configure --prefix=$(MARISA_PATH)/local && make && make install
 
 make_data: 
