@@ -1,4 +1,6 @@
 # N-gram LM Grapheme-to-Phoneme
+[![C/C++ CI](https://github.com/jp-myk/ngramlm-g2p/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/jp-myk/ngramlm-g2p/actions/workflows/c-cpp.yml)
+
 - Transducer from a sentence to word/reading sequence.   
 - This repository is for my own study.
 
